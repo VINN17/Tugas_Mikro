@@ -1,0 +1,84 @@
+{
+    "version": 1,
+    "author": "010_Imam",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+      {
+        "type": "wokwi-led",
+        "id": "led1",
+        "top": -186,
+        "left": 61.4,
+        "attrs": { "color": "green" }
+      },
+      { "type": "wokwi-led", "id": "led2", "top": -186, "left": 90.2, "attrs": { "color": "red" } },
+      {
+        "type": "wokwi-led-bar-graph",
+        "id": "bargraph1",
+        "top": -91.2,
+        "left": 446.4,
+        "attrs": { "color": "GYR" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r1",
+        "top": -81.6,
+        "left": 57.05,
+        "rotate": 90,
+        "attrs": { "value": "1000" }
+      },
+      {
+        "type": "wokwi-resistor",
+        "id": "r2",
+        "top": -81.6,
+        "left": 85.85,
+        "rotate": 90,
+        "attrs": { "value": "3300" }
+      },
+      { "type": "wokwi-slide-switch", "id": "sw1", "top": -168.4, "left": 185.5, "attrs": {} },
+      { "type": "wokwi-slide-switch", "id": "sw2", "top": -168.4, "left": 223.9, "attrs": {} },
+      { "type": "wokwi-slide-switch", "id": "sw3", "top": -168.4, "left": 262.3, "attrs": {} },
+      {
+        "type": "wokwi-buzzer",
+        "id": "bz1",
+        "top": -103.2,
+        "left": 213,
+        "attrs": { "volume": "0.1" }
+      }
+    ],
+    "connections": [
+      [ "bargraph1:C1", "bargraph1:C2", "green", [ "v0" ] ],
+      [ "bargraph1:C2", "bargraph1:C3", "green", [ "h0" ] ],
+      [ "bargraph1:C3", "bargraph1:C4", "green", [ "h0" ] ],
+      [ "bargraph1:C4", "bargraph1:C5", "green", [ "h0" ] ],
+      [ "bargraph1:C5", "bargraph1:C6", "green", [ "h0" ] ],
+      [ "bargraph1:C6", "bargraph1:C7", "green", [ "h0" ] ],
+      [ "bargraph1:C7", "bargraph1:C8", "green", [ "h0" ] ],
+      [ "bargraph1:C8", "bargraph1:C9", "green", [ "h0" ] ],
+      [ "bargraph1:C9", "bargraph1:C10", "green", [ "h0" ] ],
+      [ "bargraph1:C10", "mega:GND.5", "green", [ "h0.22", "v182.39" ] ],
+      [ "r1:1", "led1:A", "green", [ "h0" ] ],
+      [ "r2:1", "led2:A", "green", [ "h0" ] ],
+      [ "r1:2", "mega:13", "green", [ "h0", "v27.6", "h38.4" ] ],
+      [ "r2:2", "mega:12", "green", [ "h0", "v8.4", "h19.2" ] ],
+      [ "led2:C", "led1:C", "black", [ "v0" ] ],
+      [ "mega:GND.1", "led1:C", "black", [ "v-18.6", "h-3.8" ] ],
+      [ "sw1:3", "mega:10", "red", [ "v9.6", "h-47.8" ] ],
+      [ "sw2:3", "mega:9", "orange", [ "v19.2", "h-76.6" ] ],
+      [ "sw3:3", "mega:8", "blue", [ "v28.8", "h-105.4" ] ],
+      [ "mega:GND.1", "sw1:2", "black", [ "v-133.8", "h63.4" ] ],
+      [ "sw2:2", "sw1:2", "black", [ "v9.6", "h-19.1" ] ],
+      [ "sw3:2", "sw2:2", "black", [ "v9.6", "h-9.5" ] ],
+      [ "bz1:2", "mega:11", "green", [ "v9.6", "h-10" ] ],
+      [ "bz1:1", "sw1:2", "black", [ "v0", "h-28.8" ] ],
+      [ "mega:22", "bargraph1:A10", "green", [ "v1.7", "h90.2" ] ],
+      [ "mega:23", "bargraph1:A9", "green", [ "v1.7", "h70.6", "v-28.8" ] ],
+      [ "mega:24", "bargraph1:A8", "green", [ "v1.55", "h80.6", "v-48" ] ],
+      [ "mega:25", "bargraph1:A7", "green", [ "v1.55", "h70.6", "v-57.6" ] ],
+      [ "mega:26", "bargraph1:A6", "green", [ "v1.65", "h80.6", "v-76.8" ] ],
+      [ "mega:27", "bargraph1:A5", "green", [ "v1.65", "h70.6", "v-86.4" ] ],
+      [ "mega:28", "bargraph1:A4", "green", [ "v1.75", "h80.6", "v-96" ] ],
+      [ "mega:29", "bargraph1:A3", "green", [ "v1.75", "h70.6", "v-115.2" ] ]
+    ],
+    "dependencies": {}
+  }
