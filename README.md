@@ -49,16 +49,23 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 
 ## 🧩 Diagram Alur Sistem
 
-```
-Sensor Debit & Volume Air
-        ↓
-   Bandingkan Set Point
-        ↓
-Jika Melebihi → Pompa ON
-Jika Kurang dari/Sama → Pompa OFF
-        ↓
-  Update ke Sistem Monitoring
-```
+![Diagram Alur Sistem](./path/to/your/diagram.png)
+
+**Penjelasan Alur:**
+1. Sistem dimulai (Start).
+2. Masuk ke tampilan **GUI**.
+3. Pengguna memilih mode:
+   - **Mode Auto**:
+     - Membaca data sensor debit dan volume air.
+     - Data sensor dikirim dari **AVR** ke **pyserial**.
+     - Data dibandingkan dengan nilai **SetPoint**.
+       - Jika **lebih besar** dari SetPoint → **Pompa ON**.
+       - Jika **kurang dari/sama dengan** SetPoint → **Pompa OFF**.
+   - **Mode Manual**:
+     - Pengguna dapat memilih **START** untuk menghidupkan pompa.
+     - Atau memilih **STOP** untuk mematikan pompa.
+4. Setelah pompa menyala, air dipompa menuju **saluran pembuangan utama**.
+5. Proses berulang hingga sistem dimatikan (END).
 
 ---
 
