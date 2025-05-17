@@ -3536,19 +3536,19 @@
 		(at 201.93 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86a2a3ba-aba2-413f-8512-82a1c3578c36")
+		(uuid "6ae13786-6074-4ff7-8918-f3d10ba65a71")
+	)
+	(junction
+		(at 201.93 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8597cf8f-44ef-4adc-b7e0-43817e56ecdc")
 	)
 	(junction
 		(at 55.88 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f8d9f3d-94d9-409f-8446-aa4c43df8cb9")
-	)
-	(junction
-		(at 201.93 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab866c2c-139c-46cf-a49b-bf36deeada94")
 	)
 	(junction
 		(at 201.93 53.34)
@@ -3567,16 +3567,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb5ee306-d3a3-4dd1-b0f6-9e89f3020f93")
-	)
-	(wire
-		(pts
-			(xy 199.39 100.33) (xy 201.93 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026a9cb1-b07d-48d6-9b5a-d66f83b72821")
 	)
 	(wire
 		(pts
@@ -3630,17 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 45.72) (xy 201.93 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "349aed4a-9edd-48eb-a090-d7edd1456183")
-	)
-	(wire
-		(pts
-			(xy 201.93 127) (xy 201.93 130.81)
+			(xy 201.93 127) (xy 201.93 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3657,6 +3637,16 @@
 			(type default)
 		)
 		(uuid "41caf714-6b4d-4508-ad90-109442f208da")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 184.15 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f69945-046e-40b0-ace6-db7bf369b4c9")
 	)
 	(wire
 		(pts
@@ -3740,16 +3730,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 53.34) (xy 201.93 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbdac81-c2c4-4192-a5fe-93d76cddb947")
-	)
-	(wire
-		(pts
 			(xy 227.33 67.31) (xy 229.87 67.31)
 		)
 		(stroke
@@ -3800,16 +3780,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 119.38) (xy 191.77 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c735b12-32df-4363-b0a5-7fd09654f18d")
-	)
-	(wire
-		(pts
 			(xy 247.65 55.88) (xy 247.65 59.69)
 		)
 		(stroke
@@ -3827,6 +3797,16 @@
 			(type default)
 		)
 		(uuid "882c7850-fd23-4040-b7f8-02ab7cea30f1")
+	)
+	(wire
+		(pts
+			(xy 201.93 107.95) (xy 204.47 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cec02e-cad2-4d4f-8c57-5e3c7a7c4b99")
 	)
 	(wire
 		(pts
@@ -3857,16 +3837,6 @@
 			(type default)
 		)
 		(uuid "965dc3cd-3bf7-402c-9c37-9a7696763c95")
-	)
-	(wire
-		(pts
-			(xy 201.93 107.95) (xy 204.47 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce42249-133a-4685-ba38-089feddea3da")
 	)
 	(wire
 		(pts
@@ -3990,23 +3960,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 119.38) (xy 184.15 119.38)
+			(xy 191.77 119.38) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8cc2352-b672-4a03-b731-b0ddb2ee974e")
-	)
-	(wire
-		(pts
-			(xy 199.39 107.95) (xy 201.93 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fba492b5-8414-45ec-88b1-2c9f05487e23")
+		(uuid "fd1172d7-0a25-4374-9c72-9eb00ed8c973")
 	)
 	(global_label "RNO4"
 		(shape output)
@@ -6354,7 +6314,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 187.96 60.96 90)
 			(effects
 				(font
@@ -7372,7 +7332,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 187.96 115.57 90)
 			(effects
 				(font
@@ -8216,6 +8176,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "87750ac7-77b1-411b-bf58-9c2c3908e3e8")
 		(property "Reference" "Q4"
 			(at 203.2 118.1099 0)
@@ -8236,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "S9013:SOT95P240X120-3N"
-			(at 197.866 117.094 0)
+			(at 199.39 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,7 +8348,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 233.68 63.5 90)
 			(effects
 				(font
@@ -8438,7 +8399,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4001")
-		(at 199.39 49.53 270)
+		(at 201.93 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8446,7 +8407,7 @@
 		(dnp no)
 		(uuid "92dd0846-4aea-49db-a44b-f5602fcbbcea")
 		(property "Reference" "D1"
-			(at 196.596 45.72 0)
+			(at 199.136 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8416,7 @@
 			)
 		)
 		(property "Value" "1N4001/1N4148"
-			(at 196.85 48.768 0)
+			(at 199.39 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8464,7 +8425,7 @@
 			)
 		)
 		(property "Footprint" "1N4148W-TP:SOD123"
-			(at 196.596 49.022 0)
+			(at 199.136 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8433,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 199.39 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8442,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 199.39 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8451,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 199.39 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +8460,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 199.39 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +9354,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 233.68 118.11 90)
 			(effects
 				(font
@@ -9444,7 +9405,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4001")
-		(at 199.39 104.14 270)
+		(at 201.93 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9452,7 +9413,7 @@
 		(dnp no)
 		(uuid "ed84257c-55c1-4859-8778-67f9a9295e0e")
 		(property "Reference" "D3"
-			(at 196.596 100.33 0)
+			(at 199.136 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9461,7 +9422,7 @@
 			)
 		)
 		(property "Value" "1N4001/1N4148"
-			(at 196.85 103.378 0)
+			(at 199.39 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +9431,7 @@
 			)
 		)
 		(property "Footprint" "1N4148W-TP:SOD123"
-			(at 196.596 103.632 0)
+			(at 199.136 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9439,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 199.39 104.14 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9448,7 @@
 			)
 		)
 		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 199.39 104.14 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9457,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 199.39 104.14 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9466,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 199.39 104.14 0)
+			(at 201.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
