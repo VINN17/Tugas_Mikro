@@ -224,6 +224,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 3.2,
+          "drill": 3.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -626,6 +630,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "cad82aa0-550e-4551-a888-83ffaf229eaa",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }

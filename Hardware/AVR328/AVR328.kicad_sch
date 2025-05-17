@@ -4096,7 +4096,7 @@
 			)
 		)
 	)
-	(global_label "ADC4"
+	(global_label "ADC0"
 		(shape input)
 		(at 115.57 87.63 180)
 		(fields_autoplaced yes)
@@ -4140,7 +4140,7 @@
 			)
 		)
 	)
-	(global_label "IN3"
+	(global_label "OUT3"
 		(shape input)
 		(at 146.05 72.39 0)
 		(fields_autoplaced yes)
@@ -4152,7 +4152,7 @@
 		)
 		(uuid "157197fa-202c-4f04-be4f-7842780ca232")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7283 72.39 0)
+			(at 150.7443 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4206,7 @@
 			)
 		)
 	)
-	(global_label "OUT4"
+	(global_label "OUT1"
 		(shape input)
 		(at 227.33 121.92 180)
 		(fields_autoplaced yes)
@@ -4250,7 +4250,7 @@
 			)
 		)
 	)
-	(global_label "OUT2"
+	(global_label "IN3"
 		(shape input)
 		(at 115.57 57.15 180)
 		(fields_autoplaced yes)
@@ -4262,7 +4262,7 @@
 		)
 		(uuid "1e69d1b3-72fd-48b9-8802-fb5da0f9cbfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8757 57.15 0)
+			(at 111.8917 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4294,7 @@
 			)
 		)
 	)
-	(global_label "IN1"
+	(global_label "OUT1"
 		(shape input)
 		(at 146.05 67.31 0)
 		(fields_autoplaced yes)
@@ -4306,7 +4306,7 @@
 		)
 		(uuid "22e8507f-381a-4ee5-882d-ca7a9b3dd37f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7283 67.31 0)
+			(at 150.7443 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,7 +4382,7 @@
 			)
 		)
 	)
-	(global_label "ADC0"
+	(global_label "ADC4"
 		(shape input)
 		(at 115.57 77.47 180)
 		(fields_autoplaced yes)
@@ -4404,7 +4404,7 @@
 			)
 		)
 	)
-	(global_label "OUT1"
+	(global_label "OUT4"
 		(shape input)
 		(at 115.57 54.61 180)
 		(fields_autoplaced yes)
@@ -4439,28 +4439,6 @@
 		(uuid "2bf6356f-0765-4407-b22d-b5b5730581e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.3158 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT5"
-		(shape input)
-		(at 115.57 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right)
-		)
-		(uuid "2e7f0544-93f8-4d5a-aaac-17058341e7a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8757 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4580,7 @@
 			)
 		)
 	)
-	(global_label "OUT4"
+	(global_label "IN1"
 		(shape input)
 		(at 115.57 62.23 180)
 		(fields_autoplaced yes)
@@ -4614,7 +4592,7 @@
 		)
 		(uuid "4916016c-f102-462e-8394-b6997f7e0326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8757 62.23 0)
+			(at 111.8917 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +4910,7 @@
 			)
 		)
 	)
-	(global_label "OUT1"
+	(global_label "OUT4"
 		(shape input)
 		(at 181.61 64.77 180)
 		(fields_autoplaced yes)
@@ -5042,7 +5020,7 @@
 			)
 		)
 	)
-	(global_label "OUT3"
+	(global_label "IN2"
 		(shape input)
 		(at 115.57 59.69 180)
 		(fields_autoplaced yes)
@@ -5054,7 +5032,7 @@
 		)
 		(uuid "98f18bc9-69b0-4d2b-8a24-0a95636463a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.8757 59.69 0)
+			(at 111.8917 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5108,7 @@
 			)
 		)
 	)
-	(global_label "OUT3"
+	(global_label "OUT2"
 		(shape input)
 		(at 181.61 119.38 180)
 		(fields_autoplaced yes)
@@ -5240,7 +5218,7 @@
 			)
 		)
 	)
-	(global_label "OUT2"
+	(global_label "OUT3"
 		(shape input)
 		(at 227.33 67.31 180)
 		(fields_autoplaced yes)
@@ -5482,7 +5460,7 @@
 			)
 		)
 	)
-	(global_label "IN2"
+	(global_label "OUT2"
 		(shape input)
 		(at 146.05 69.85 0)
 		(fields_autoplaced yes)
@@ -5494,7 +5472,7 @@
 		)
 		(uuid "d11a86d9-6107-467c-a0a6-5239ac6c6f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7283 69.85 0)
+			(at 150.7443 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5482,7 @@
 			)
 		)
 	)
-	(global_label "ADC1"
+	(global_label "ADC3"
 		(shape input)
 		(at 115.57 80.01 180)
 		(fields_autoplaced yes)
@@ -5702,7 +5680,7 @@
 			)
 		)
 	)
-	(global_label "ADC3"
+	(global_label "ADC1"
 		(shape input)
 		(at 115.57 85.09 180)
 		(fields_autoplaced yes)
