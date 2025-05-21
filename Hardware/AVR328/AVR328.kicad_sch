@@ -3542,7 +3542,7 @@
 		(at 55.88 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f8d9f3d-94d9-409f-8446-aa4c43df8cb9")
+		(uuid "88e7c655-b0f3-4114-b9b5-eb33ce9eb192")
 	)
 	(junction
 		(at 201.93 100.33)
@@ -3650,13 +3650,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 59.69) (xy 55.88 59.69)
+			(xy 49.53 54.61) (xy 55.88 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41caf714-6b4d-4508-ad90-109442f208da")
+		(uuid "470da9f1-8427-4115-b7f7-2bdbcac97768")
 	)
 	(wire
 		(pts
@@ -3910,6 +3910,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 59.69) (xy 55.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa27741-e315-466e-9341-7bb3fed34435")
+	)
+	(wire
+		(pts
 			(xy 201.93 100.33) (xy 204.47 100.33)
 		)
 		(stroke
@@ -3967,16 +3977,6 @@
 			(type default)
 		)
 		(uuid "dfdca9ec-6f83-4d13-84c7-b7d84c071384")
-	)
-	(wire
-		(pts
-			(xy 49.53 54.61) (xy 55.88 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee571a2c-12bd-44da-b5c4-4a32f699239e")
 	)
 	(wire
 		(pts
@@ -6723,15 +6723,15 @@
 	(symbol
 		(lib_id "EJ508A:EJ508A")
 		(at 44.45 57.15 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "47b270f1-02a6-4571-a23d-1d44f268ffe1")
 		(property "Reference" "J1"
-			(at 41.275 48.26 0)
+			(at 41.275 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6739,7 @@
 			)
 		)
 		(property "Value" "EJ508A"
-			(at 41.275 50.8 0)
+			(at 41.275 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,12 +6747,11 @@
 			)
 		)
 		(property "Footprint" "EJ508A:MPD_EJ508A"
-			(at 44.45 57.15 0)
+			(at 41.275 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
