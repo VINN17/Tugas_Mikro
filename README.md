@@ -1,8 +1,25 @@
-# 🚧 BUILDING AUTOMATION SYSTEMS PADA POMPA DI JALAN TOL
+# 🚧 BUILDING AUTOMATION SYSTEMS UNTUK POMPA AIR DI JALAN TOL
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
-</div>
+\<div align="center">
+
+&#x20; \<img src="[https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954](https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954)">
+
+\</div>\\
+
+## 📚 Daftar Isi
+
+1. [📌 Deskripsi Proyek](#-deskripsi-proyek)
+2. [🎯 Tujuan Proyek](#-tujuan-proyek)
+3. [🛠️ Teknologi dan Komponen](#️-teknologi-dan-komponen)
+4. [⚙️ Cara Kerja Sistem](#️-cara-kerja-sistem)
+5. [🧩 Diagram Alur Sistem](#-diagram-alur-sistem)
+6. [🌟 Keunggulan Proyek](#-keunggulan-proyek)
+7. [📈 Potensi Pengembangan](#-potensi-pengembangan)
+8. [🤝 Kolaborasi & Dukungan](#-kolaborasi--dukungan)
+9. [👥 Struktur Tim](#-struktur-tim)
+10. [📩 Hubungi Kami](#-hubungi-kami)
+
+---
 
 ## 📌 Deskripsi Proyek
 
@@ -10,7 +27,7 @@
 
 Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan atau mematikan pompa secara otomatis berdasarkan data real-time, sehingga meningkatkan **keamanan** dan **kenyamanan** pengguna jalan.
 
-> Dikembangkan berbasis **Arduino Uno** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
+> Dikembangkan berbasis **Arduino Mega 2560** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
 
 ---
 
@@ -29,7 +46,7 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 
 ## 🛠️ Teknologi dan Komponen
 
-![Image](https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e)
+!\[Image]\([https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e](https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e))
 
 | Komponen           | Spesifikasi                                  |
 | ------------------ | -------------------------------------------- |
@@ -57,7 +74,7 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 
 ## 🧩 Diagram Alur Sistem
 
-![Image](https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1)
+!\[Image]\([https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1](https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1))
 
 **Penjelasan Alur:**
 
@@ -105,7 +122,7 @@ Kami membuka peluang kerja sama dengan:
 
 ## 👥 Struktur Tim
 
-![Image](https://github.com/user-attachments/assets/7117c78c-1f37-4df8-adb0-44bec22e9260)
+!\[Image]\([https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7](https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7))
 
 | NRP        | Nama    | Peran Utama              |
 | ---------- | ------- | ------------------------ |
