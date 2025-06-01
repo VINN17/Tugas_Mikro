@@ -1,130 +1,129 @@
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
-</div>
+# 🚧 BUILDING AUTOMATION SYSTEMS UNTUK POMPA AIR DI JALAN TOL
 
-# 🚧 BUILDING AUTOMATION SYSTEMS PADA POMPA DI JALAN TOL
+\<div align="center">
+
+&#x20; \<img src="[https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954](https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954)">
+
+\</div>\\
 
 ## 📌 Deskripsi Proyek
 
-**Building Automation Systems** ini dirancang untuk mengotomatisasi pengoperasian **pompa air di jalan tol**, guna mengatasi genangan atau banjir secara cepat dan efisien.  
-Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan atau mematikan pompa berdasarkan data real-time, sehingga dapat meningkatkan keamanan dan kenyamanan pengguna jalan.
+**Building Automation Systems** ini dirancang untuk mengotomatisasi pengoperasian **pompa air pada jalan tol** guna mengatasi genangan atau banjir secara cepat dan efisien.
 
-> Proyek ini dikembangkan berbasis mikrokontroler **Arduino Mega 2560** dan dikombinasikan dengan sistem monitoring berbasis GUI, menawarkan solusi otomasi yang **andal**, **terjangkau**, dan **mudah diimplementasikan**.
+Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan atau mematikan pompa secara otomatis berdasarkan data real-time, sehingga meningkatkan **keamanan** dan **kenyamanan** pengguna jalan.
+
+> Dikembangkan berbasis **Arduino Mega 2560** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
 
 ---
 
 ## 🎯 Tujuan Proyek
 
-- **Meningkatkan Efisiensi dan Produktivitas**  
-  Sistem otomatisasi meminimalkan keterlibatan manusia, mengoptimalkan respons terhadap perubahan kondisi air.
+* **Efisiensi Operasional Maksimal**
+  Sistem mengeliminasi keterlambatan manual dan mengoptimalkan respons terhadap kondisi air.
 
-- **Mengurangi Risiko Kesalahan Manual**  
-  Otomasi berbasis sensor menghilangkan potensi kesalahan yang biasa terjadi dalam operasi manual.
+* **Minimalkan Risiko Human Error**
+  Pengambilan keputusan berbasis data sensor menghindari kesalahan dalam penanganan banjir.
 
-- **Menyediakan Solusi Otomasi yang Terjangkau**  
-  Dengan komponen yang mudah diakses dan biaya implementasi rendah, proyek ini menjadi pilihan ideal untuk banyak lokasi.
+* **Solusi Otomasi Biaya Terjangkau**
+  Menggunakan komponen yang tersedia di pasaran dengan biaya rendah, ideal untuk skalabilitas.
 
 ---
 
 ## 🛠️ Teknologi dan Komponen
-![Image](https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e)
 
+!\[Image]\([https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e](https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e))
 
-| Komponen              | Spesifikasi                                 |
-|-----------------------|---------------------------------------------|
-| Mikrokontroler        | Arduino Uno                                 |
-| Sensor Debit Air      | Pressure Sensor                             |
-| Sensor Volume Air     | Ultrasonic Sensor / Water Level Sensor      |
-| Aktuator              | Pompa Air + Relay Module                    |
-| Antarmuka Pengguna    | GUI berbasis Figma (Start/Stop, Monitoring) |
-| Komunikasi Data       | Kabel Serial (opsi Wireless untuk pengembangan lanjut) |
+| Komponen           | Spesifikasi                                  |
+| ------------------ | -------------------------------------------- |
+| Mikrokontroler     | Arduino Mega 2560                            |
+| Sensor Debit Air   | Pressure Sensor                              |
+| Sensor Volume Air  | Ultrasonic / Water Level Sensor              |
+| Aktuator           | Pompa Air + Relay Module                     |
+| Antarmuka Pengguna | GUI berbasis Figma (Start/Stop, Monitoring)  |
+| Komunikasi Data    | Serial / Wireless (pengembangan selanjutnya) |
 
 ---
 
 ## ⚙️ Cara Kerja Sistem
 
 1. Sensor membaca **debit** dan **volume air** secara berkala.
-2. Data dibandingkan dengan nilai **set point** yang telah ditentukan.
-3. **Logika Kontrol**:
-   - Jika **debit > set point** dan **volume > set point** → **Pompa ON**
-   - Jika **debit ≤ set point** dan **volume ≤ set point** → **Pompa OFF**
-4. Status pompa dan data sensor dikirim ke GUI untuk **monitoring real-time**.
-5. Operator dapat melakukan **manual override** melalui GUI bila diperlukan.
+2. Data dikirim ke mikrokontroler dan dibandingkan dengan nilai **set point**.
+3. **Logika Kendali Otomatis**:
+
+   * Jika data melebihi ambang → **Pompa ON**
+   * Jika data aman → **Pompa OFF**
+4. Status sistem ditampilkan pada GUI untuk **monitoring real-time**.
+5. Operator dapat melakukan **manual override** dari GUI bila dibutuhkan.
 
 ---
 
 ## 🧩 Diagram Alur Sistem
 
-![Image](https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1)
-
-
-
+!\[Image]\([https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1](https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1))
 
 **Penjelasan Alur:**
-1. Sistem dimulai (Start).
-2. Masuk ke tampilan **GUI**.
-3. Pengguna memilih mode:
-   - **Mode Auto**:
-     - Membaca data sensor debit dan volume air.
-     - Data sensor dikirim dari **AVR** ke **pyserial**.
-     - Data dibandingkan dengan nilai **SetPoint**.
-       - Jika **lebih besar** dari SetPoint → **Pompa ON**.
-       - Jika **kurang dari/sama dengan** SetPoint → **Pompa OFF**.
-   - **Mode Manual**:
-     - Pengguna dapat memilih **START** untuk menghidupkan pompa.
-     - Atau memilih **STOP** untuk mematikan pompa.
-4. Setelah pompa menyala, air dipompa menuju **saluran pembuangan utama**.
-5. Proses berulang hingga sistem dimatikan (END).
+
+* Sistem dimulai melalui tampilan GUI.
+
+* Pengguna memilih mode: **Auto** atau **Manual**.
+
+  * **Auto**: sensor membaca data → kirim ke GUI → kontrol pompa otomatis.
+  * **Manual**: pengguna dapat menyalakan/mematikan pompa secara langsung.
+
+* Sistem akan terus berjalan sampai dihentikan manual oleh operator.
 
 ---
 
-## 🌟 Kelebihan Proyek Ini
+## 🌟 Keunggulan Proyek
 
-- **Real-Time Response** terhadap kondisi genangan.
-- **Monitoring Terpusat** memudahkan kontrol banyak pompa dari satu lokasi.
-- **Fleksibilitas** untuk integrasi ke sistem SCADA atau IoT di masa depan.
-- **Biaya Implementasi Efisien**, cocok untuk deployment skala besar.
-- **Scalable Design**, mendukung pengembangan tambahan seperti alarm, SMS alert, atau integrasi cloud.
-
----
-
-## 📈 Potensi Pengembangan ke Depan
-
-- Integrasi dengan **IoT Cloud Platform** untuk akses global.
-- Notifikasi berbasis **SMS/WhatsApp** saat status kritis.
-- Prediksi genangan berbasis **Machine Learning** dari data debit air historis.
-- Integrasi ke dalam **Smart City Infrastructure**.
+* ✅ **Respon Real-Time** terhadap potensi banjir.
+* ✅ **Kontrol Terpusat & Mudah** dari satu GUI.
+* ✅ **Terintegrasi dengan IoT/SCADA** untuk masa depan.
+* ✅ **Desain Scalable** & mudah diadaptasi ke area baru.
+* ✅ **Ramah Anggaran** untuk implementasi massal.
 
 ---
 
-## 🤝 Dukungan dan Kolaborasi
+## 📈 Potensi Pengembangan
 
-Kami membuka peluang kolaborasi dengan pihak ketiga seperti:
-
-- Investor yang tertarik pada bidang **infrastruktur cerdas**.
-- Pemerintah atau operator jalan tol yang membutuhkan sistem pengendalian banjir otomatis.
-- Perusahaan teknologi yang ingin mengembangkan solusi otomasi skala besar.
-
-> 🚀 Mari bersama-sama membangun infrastruktur jalan tol yang lebih aman, cerdas, dan efisien.
+* 🌐 **Integrasi ke IoT Cloud**: akses global & notifikasi otomatis.
+* 🔔 **Peringatan SMS/WhatsApp** saat kondisi kritis.
+* 🧠 **Prediksi Banjir Berbasis AI**: analisis historis dengan Machine Learning.
+* 🏙️ **Kompatibel dengan Smart City Infrastructure**.
 
 ---
 
-# 📋 Struktur Tim
-![Image](https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7)
+## 🤝 Kolaborasi & Dukungan
 
-| NRP        | Nama     | Jobdesk             |
-|------------|----------|---------------------|
-| 2123600010 | Imam     | Project Manager     |
-| 2123600014 | Ferri    | PCB Designer         |
-| 2123600004 | Robith   | Hardware Specialist  |
-| 2123600030 | Zach     | Software Developer   |
-| 2123600023 | Choirul  | 3D Designer          |
-| 2123600019 | Andira   | Non-Technical        |
+Kami membuka peluang kerja sama dengan:
+
+* 🔧 **Investor teknologi** yang tertarik pada otomasi infrastruktur.
+* 🛣️ **Pemerintah / Operator Jalan Tol** untuk penerapan langsung.
+* 🧪 **Startup atau perusahaan R\&D** yang ingin mengembangkan solusi pintar dan berdampak.
+
+> 🎯 Kami siap melakukan presentasi, demo proyek, dan diskusi lanjutan bersama mitra strategis.
 
 ---
 
-# 📩 Hubungi Kami
+## 👥 Struktur Tim
 
-Untuk pertanyaan, kolaborasi, atau demonstrasi proyek, silakan hubungi kami melalui email:
+!\[Image]\([https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7](https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7))
 
-**✉️ Project Manager: immarfn17@gmail.com**
+| NRP        | Nama    | Peran Utama              |
+| ---------- | ------- | ------------------------ |
+| 2123600010 | Imam    | Project Manager          |
+| 2123600014 | Ferri   | Desain PCB               |
+| 2123600004 | Robith  | Spesialis Hardware       |
+| 2123600030 | Zach    | Pengembang Software      |
+| 2123600023 | Choirul | Desainer 3D              |
+| 2123600019 | Andira  | Non-Teknis & Dokumentasi |
+
+---
+
+## 📩 Hubungi Kami
+
+📧 Untuk kerja sama, pertanyaan, atau demo proyek:
+
+**Email Project Manager**: [immarfn17@gmail.com](mailto:immarfn17@gmail.com)
+
+> 🚀 Mari bersama kita ciptakan masa depan infrastruktur jalan tol yang lebih **cerdas**, **aman**, dan **berkelanjutan**.
