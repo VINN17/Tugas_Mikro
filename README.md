@@ -10,7 +10,7 @@
 
 Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan atau mematikan pompa secara otomatis berdasarkan data real-time, sehingga meningkatkan **keamanan** dan **kenyamanan** pengguna jalan.
 
-> Dikembangkan berbasis **Arduino Mega 2560** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
+> Dikembangkan berbasis **Arduino Uno** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
 
 ---
 
