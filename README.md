@@ -1,10 +1,10 @@
 # 🚧 BUILDING AUTOMATION SYSTEMS UNTUK POMPA AIR DI JALAN TOL
 
-\<div align="center">
+<div align="center">
 
-&#x20; \<img src="[https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954](https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954)">
+  <img src="[https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954](https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954)">
 
-\</div>\\
+</div>
 
 ## 📚 Daftar Isi
 
