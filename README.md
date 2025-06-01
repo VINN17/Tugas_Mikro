@@ -37,7 +37,7 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 | Antarmuka Pengguna    | GUI berbasis Figma (Start/Stop, Monitoring)  |
 | Komunikasi Data       | Kabel Serial (opsi Wireless untuk pengembangan lanjut) |
 
-![Image](https://github.com/user-attachments/assets/4d12a8da-b201-4a60-b431-e0f226d4ba51)
+![Image](https://github.com/user-attachments/assets/16930e44-5ff4-4ef7-b332-c228c4ff1ba8)
 ---
 
 ## ⚙️ Cara Kerja Sistem
