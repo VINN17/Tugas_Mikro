@@ -105,7 +105,7 @@ Kami membuka peluang kerja sama dengan:
 
 ## 👥 Struktur Tim
 
-![Image](https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7)
+![Image](https://github.com/user-attachments/assets/7117c78c-1f37-4df8-adb0-44bec22e9260)
 
 | NRP        | Nama    | Peran Utama              |
 | ---------- | ------- | ------------------------ |
