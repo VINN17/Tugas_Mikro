@@ -30,13 +30,13 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 ![Image](https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e)
 
 
-| Komponen             | Spesifikasi                                  |
-|----------------------|----------------------------------------------|
-| Mikrokontroler        | Arduino Mega 2560                           |
-| Sensor Debit Air      | Flow Sensor                                 |
+| Komponen              | Spesifikasi                                 |
+|-----------------------|---------------------------------------------|
+| Mikrokontroler        | Arduino Uno                                 |
+| Sensor Debit Air      | Pressure Sensor                             |
 | Sensor Volume Air     | Ultrasonic Sensor / Water Level Sensor      |
 | Aktuator              | Pompa Air + Relay Module                    |
-| Antarmuka Pengguna    | GUI berbasis Figma (Start/Stop, Monitoring)  |
+| Antarmuka Pengguna    | GUI berbasis Figma (Start/Stop, Monitoring) |
 | Komunikasi Data       | Kabel Serial (opsi Wireless untuk pengembangan lanjut) |
 
 ---
