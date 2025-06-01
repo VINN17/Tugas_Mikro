@@ -127,4 +127,4 @@ Kami membuka peluang kolaborasi dengan pihak ketiga seperti:
 
 Untuk pertanyaan, kolaborasi, atau demonstrasi proyek, silakan hubungi kami melalui email:
 
-**✉️ buildingautomation.tol@gmail.com**
+**✉️ Project Manager: immarfn17@gmail.com**
