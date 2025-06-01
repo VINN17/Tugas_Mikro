@@ -1,4 +1,5 @@
-<h1 align="center" style="font-size: 42px;"> BUILDING AUTOMATION SYSTEMS pada Pompa Air di Jalan Tol untuk Mengatasi Banjir dan Kemacetan Akibat Hujan Berkepanjangan </h1>
+# 🚧 Building Automation System (BAS) untuk Pompa Air Jalan Tol
+### Solusi Banjir dan Kemacetan saat Hujan Berkepanjangan
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
