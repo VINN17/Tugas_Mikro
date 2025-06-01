@@ -68,6 +68,7 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 4. Setelah pompa menyala, air dipompa menuju **saluran pembuangan utama**.
 5. Proses berulang hingga sistem dimatikan (END).
 
+![Image](https://github.com/user-attachments/assets/c417c9df-479f-43a0-807a-b9347ed5da0f)
 ---
 
 ## 🌟 Kelebihan Proyek Ini
