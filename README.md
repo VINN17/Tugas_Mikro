@@ -50,7 +50,8 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 
 ## 🧩 Diagram Alur Sistem
 
-<img src="./path/to/your/diagram.png" alt="Diagram Alur Sistem" width="50">
+<img src="./path/to/your/diagram.png" alt="Diagram Alur Sistem" width="50" height="auto">
+
 
 
 **Penjelasan Alur:**
