@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 42px;">🚧 BUILDING AUTOMATION SYSTEMS UNTUK POMPA AIR DI JALAN TOL</h1>
+<h1 align="center" style="font-size: 40px;">🚧 BUILDING AUTOMATION SYSTEMS UNTUK POMPA AIR DI JALAN TOL</h1>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
