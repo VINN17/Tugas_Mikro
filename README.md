@@ -27,6 +27,8 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 ---
 
 ## 🛠️ Teknologi dan Komponen
+![Image](https://github.com/user-attachments/assets/16930e44-5ff4-4ef7-b332-c228c4ff1ba8)
+
 
 | Komponen             | Spesifikasi                                  |
 |----------------------|----------------------------------------------|
@@ -37,7 +39,6 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 | Antarmuka Pengguna    | GUI berbasis Figma (Start/Stop, Monitoring)  |
 | Komunikasi Data       | Kabel Serial (opsi Wireless untuk pengembangan lanjut) |
 
-![Image](https://github.com/user-attachments/assets/16930e44-5ff4-4ef7-b332-c228c4ff1ba8)
 ---
 
 ## ⚙️ Cara Kerja Sistem
@@ -75,7 +76,6 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 4. Setelah pompa menyala, air dipompa menuju **saluran pembuangan utama**.
 5. Proses berulang hingga sistem dimatikan (END).
 
-![Image](https://github.com/user-attachments/assets/c417c9df-479f-43a0-807a-b9347ed5da0f)
 ---
 
 ## 🌟 Kelebihan Proyek Ini
