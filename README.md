@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 42px;"> BUILDING AUTOMATION SYSTEMS PADA POMPA AIR DI JALAN TOL UNTUK MENGATASI BANJIR DAN KEMACETAN KETIKA HUJAN PANJANG </h1>
+<h1 align="center" style="font-size: 42px;"> BUILDING AUTOMATION SYSTEMS pada Pompa Air di Jalan Tol untuk Mengatasi Banjir dan Kemacetan Akibat Hujan Berkepanjangan </h1>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
