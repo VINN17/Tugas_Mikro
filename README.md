@@ -55,7 +55,7 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 
 ## 🧩 Diagram Alur Sistem
 
-![Image](https://github.com/user-attachments/assets/fe3defaf-ce47-4f5b-a22a-ef6a4ac96f3d)
+![Image](https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1)
 
 
 
