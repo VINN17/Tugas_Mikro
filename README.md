@@ -27,7 +27,7 @@ Menggunakan sensor debit dan volume air, sistem ini secara otomatis menghidupkan
 ---
 
 ## 🛠️ Teknologi dan Komponen
-[![Image](https://github.com/user-attachments/assets/16930e44-5ff4-4ef7-b332-c228c4ff1ba8)](https://github.com/user-attachments/assets/c22dc531-f373-4f27-8fe0-2437f6c9d299)
+https://github.com/user-attachments/assets/c22dc531-f373-4f27-8fe0-2437f6c9d299
 
 
 | Komponen             | Spesifikasi                                  |
