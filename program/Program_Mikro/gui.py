@@ -14,7 +14,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.animation as animation
 
 # === CONFIG ===
-SERIAL_PORT = 'COM17'  # <--- PASTIKAN INI SESUAI DENGAN PORT SERIAL MIKROKONTROLER ANDA
+SERIAL_PORT = 'COM23'  # <--- PASTIKAN INI SESUAI DENGAN PORT SERIAL MIKROKONTROLER ANDA
 BAUD_RATE = 115200
 THRESHOLD_ADC0 = 800   # Threshold untuk water level (raw ADC value)
 THRESHOLD_ADC1 = 600   # Threshold untuk pressure (raw ADC value)
