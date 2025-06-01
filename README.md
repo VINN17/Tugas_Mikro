@@ -1,10 +1,8 @@
 # 🚧 BUILDING AUTOMATION SYSTEMS UNTUK POMPA AIR DI JALAN TOL
 
-\<div align="center">
-
-&#x20; \<img src="[https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954](https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954)">
-
-\</div>\\
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
+</div>
 
 ## 📌 Deskripsi Proyek
 
@@ -31,7 +29,7 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 
 ## 🛠️ Teknologi dan Komponen
 
-!\[Image]\([https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e](https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e))
+![Image](https://github.com/user-attachments/assets/1327b8de-43a2-474f-bb94-4d029d60099e)
 
 | Komponen           | Spesifikasi                                  |
 | ------------------ | -------------------------------------------- |
@@ -59,7 +57,7 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 
 ## 🧩 Diagram Alur Sistem
 
-!\[Image]\([https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1](https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1))
+![Image](https://github.com/user-attachments/assets/c8edc639-7d1b-4b6b-8df4-81f207d4f9f1)
 
 **Penjelasan Alur:**
 
@@ -107,7 +105,7 @@ Kami membuka peluang kerja sama dengan:
 
 ## 👥 Struktur Tim
 
-!\[Image]\([https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7](https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7))
+![Image](https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7)
 
 | NRP        | Nama    | Peran Utama              |
 | ---------- | ------- | ------------------------ |
