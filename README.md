@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4eff24ae-faa2-4849-bfc7-f6a17c775514" alt="Image" width="189">
+  <img src="https://github.com/user-attachments/assets/43e15fac-9818-43cc-aea0-51ffeabe8fd4" alt="Image" width="189">
 </div>
 
 # 🚧 BUILDING AUTOMATION SYSTEMS PADA POMPA DI JALAN TOL
