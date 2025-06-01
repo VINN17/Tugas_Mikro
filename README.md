@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/e0ca92ee-25ec-484d-baae-96fa5836b678)
 # 🚧 BUILDING AUTOMATION SYSTEMS PADA POMPA DI JALAN TOL
 
 ## 📌 Deskripsi Proyek
