@@ -110,6 +110,7 @@ Kami membuka peluang kolaborasi dengan pihak ketiga seperti:
 ---
 
 # 📋 Struktur Tim
+![Image](https://github.com/user-attachments/assets/1b4c1482-4e50-4561-bc47-0bbc0ea77da7)
 
 | NRP        | Nama     | Jobdesk             |
 |------------|----------|---------------------|
