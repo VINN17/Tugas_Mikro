@@ -140,4 +140,5 @@ Kami membuka peluang kerja sama dengan:
 
 **Email Project Manager**: [immarfn17@gmail.com](mailto:immarfn17@gmail.com)
 
+https://github.com/user-attachments/assets/e031905e-8c8b-41f6-a709-753fc951936e
 > 🚀 Mari bersama kita ciptakan masa depan infrastruktur jalan tol yang lebih **cerdas**, **aman**, dan **berkelanjutan**.
