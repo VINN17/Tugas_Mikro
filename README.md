@@ -26,7 +26,7 @@
 
 Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan atau mematikan pompa secara otomatis berdasarkan data real-time, sehingga meningkatkan **keamanan** dan **kenyamanan** pengguna jalan.
 
-> Dikembangkan berbasis **Arduino Mega 2560** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
+> Dikembangkan berbasis **Arduino Uno** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
 
 ---
 
@@ -49,7 +49,7 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 
 | Komponen           | Spesifikasi                                  |
 | ------------------ | -------------------------------------------- |
-| Mikrokontroler     | Arduino Mega 2560                            |
+| Mikrokontroler     | Arduino Uno                                  |
 | Sensor Debit Air   | Pressure Sensor                              |
 | Sensor Volume Air  | Ultrasonic / Water Level Sensor              |
 | Aktuator           | Pompa Air + Relay Module                     |
