@@ -5,12 +5,7 @@
   <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
 </div>
 
-<div align="center">
-  <a href="https://github.com/user-attachments/assets/4135e06a-734f-496c-8481-714472587500">
-    <img src="https://github.com/user-attachments/assets/4135e06a-734f-496c-8481-714472587500" width="300">
-  </a>
-</div>
-
+https://github.com/user-attachments/assets/4135e06a-734f-496c-8481-714472587500
 
 ## 📚 Daftar Isi
 
