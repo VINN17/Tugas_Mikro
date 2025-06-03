@@ -88,6 +88,15 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 
 ---
 
+## 💻 PCB
+
+![Image](https://github.com/user-attachments/assets/2f61345b-46dd-41f9-9cba-4b920a82135a)
+
+Diatas  merupakan desain PCB jadi 
+
+---
+
+
 ## 🌟 Keunggulan Proyek
 
 * ✅ **Respon Real-Time** terhadap potensi banjir.
