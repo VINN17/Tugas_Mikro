@@ -4,14 +4,8 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
 </div>
-<div align="center">
-  <video width="300" controls>
-    <source src="(https://github.com/user-attachments/assets/4135e06a-734f-496c-8481-714472587500)" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
 
-https://github.com/user-attachments/assets/4135e06a-734f-496c-8481-714472587500
+                                                    https://github.com/user-attachments/assets/4135e06a-734f-496c-8481-714472587500
 
 ## 📚 Daftar Isi
 
