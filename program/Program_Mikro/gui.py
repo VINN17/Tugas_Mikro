@@ -24,7 +24,7 @@ ADC_MAX_VALUE = 1023 # Untuk ADC 10-bit
 
 # Water Level: 0-5 meter
 WATER_LEVEL_MAX_METER = 5.0
-WATER_LEVEL_ON_THRESHOLD_METER = 3.0 # Pompa nyala jika > 3 meter
+WATER_LEVEL_ON_THRESHOLD_METER = 2.5 # Pompa nyala jika > 3 meter
 WATER_LEVEL_OFF_THRESHOLD_METER = 0.5 # Pompa mati jika <= 0.5 meter
 
 # Pressure: 0-10 Bar (asumsi standar untuk sensor pompa air)
@@ -84,6 +84,7 @@ class App:
 
         # Inisialisasi Serial Port
         self.ser = None
+        
         try:
             self.ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=0.1)
             time.sleep(2) # Tunggu sebentar agar Arduino siap
@@ -99,6 +100,8 @@ class App:
             self.send_command_to_mcu("ADC_Loop") # Mulai ADC Loop untuk semua channel
             print("Initial commands (DO_Set, ADC_Set, ADC_Loop) sent.")
 
+            self.send_command_to_mcu(f"OUT1{1}")
+            
         except serial.SerialException as e:
             messagebox.showerror("Serial Port Error", f"Tidak dapat membuka port serial {SERIAL_PORT}:\n{e}\nPastikan mikrokontroler terhubung dan port yang benar dipilih.")
             print(f"Error: Tidak dapat membuka port serial {SERIAL_PORT} - {e}")
@@ -375,7 +378,7 @@ class App:
             image=self.img_start_default,
             borderwidth=0,
             highlightthickness=0,
-            command=self.tombol_state_on,
+            command=self.tombol_state_off,
             relief="flat"
         )
         self.btn_start.place(x=602.0, y=646.0, width=50.0, height=51.0)
@@ -384,7 +387,7 @@ class App:
             image=self.img_stop_default,
             borderwidth=0,
             highlightthickness=0, 
-            command=self.tombol_state_off,
+            command=self.tombol_state_on,
             relief="flat"
         )
         self.btn_stop.place(x=670.0, y=646.0, width=50.0, height=51.0)
@@ -524,33 +527,34 @@ class App:
         if self.mode == 1: # Jika mode Auto
             # Logika untuk OUT1 (Pompa) berdasarkan Water Level
             if current_water_level_m > WATER_LEVEL_ON_THRESHOLD_METER and self.state == 0:
-                # Air di atas 3 meter dan pompa mati -> Nyalakan pompa
-                self.state = 1
-                self.send_command_to_mcu(f"OUT1{int(self.state)}")
-                self.status_pompa(True)
-                self.add_log_entry(f"Auto Mode: Water Level HIGH ({current_water_level_m:.2f}m > {WATER_LEVEL_ON_THRESHOLD_METER}m), turning pump ON.")
-            elif current_water_level_m <= WATER_LEVEL_OFF_THRESHOLD_METER and self.state == 1:
                 # Air di bawah 0.5 meter dan pompa nyala -> Matikan pompa
-                self.state = 0
-                self.send_command_to_mcu(f"OUT1{int(self.state)}")
-                self.status_pompa(False)
+                self.state = 1
+                self.send_command_to_mcu(f"OUT1{0}")
+                self.status_pompa(True)
                 self.add_log_entry(f"Auto Mode: Water Level LOW ({current_water_level_m:.2f}m <= {WATER_LEVEL_OFF_THRESHOLD_METER}m), turning pump OFF.")
-            
+
+            elif current_water_level_m <= WATER_LEVEL_OFF_THRESHOLD_METER and self.state == 1:
+                
+                # Air di atas 3 meter dan pompa mati -> Nyalakan pompa
+                self.state = 0
+                self.send_command_to_mcu(f"OUT1{1}")
+                self.status_pompa(False)
+                self.add_log_entry(f"Auto Mode: Water Level HIGH ({current_water_level_m:.2f}m > {WATER_LEVEL_ON_THRESHOLD_METER}m), turning pump ON.")
             # Logika untuk mematikan pompa berdasarkan Pressure, hanya jika pompa sedang menyala
             if self.state == 1 and current_pressure_bar <= PRESSURE_MOTOR_OFF_THRESHOLD_BAR:
                 # Pompa sedang nyala, tapi pressure rendah (0-1 bar) -> Matikan pompa untuk proteksi
                 self.state = 0
-                self.send_command_to_mcu(f"OUT1{int(self.state)}")
+                self.send_command_to_mcu(f"OUT3{int(self.state)}")
                 self.status_pompa(False)
                 self.add_log_entry(f"Auto Mode: WARNING! Pressure LOW ({current_pressure_bar:.2f} Bar <= {PRESSURE_MOTOR_OFF_THRESHOLD_BAR} Bar), turning pump OFF for protection.")
             
             # Logika untuk OUT3 (Lampu Motor) berdasarkan Pressure (ADC1)
             # Asumsi OUT3 adalah lampu motor, dan aktif jika pressure tinggi
-            current_lamp_motor_state = self.out_states[3]
+            current_lamp_motor_state = self.out_states[1]
             new_lamp_motor_state = current_pressure_bar > THRESHOLD_ADC1 # Menggunakan threshold raw ADC untuk lampu
             if new_lamp_motor_state != current_lamp_motor_state:
-                self.out_states[3] = new_lamp_motor_state
-                self.send_command_to_mcu(f"OUT3{int(new_lamp_motor_state)}")
+                self.out_states[1] = new_lamp_motor_state
+                self.send_command_to_mcu(f"OUT1{int(new_lamp_motor_state)}")
                 self.add_log_entry(f"Auto Mode: Pressure ({current_pressure_bar:.2f} Bar), updating Lamp Motor to {new_lamp_motor_state}.")
 
 
@@ -596,8 +600,8 @@ class App:
             self.add_log_entry("Mode diubah ke Manual.")
             self.toggle_PB(True) # Aktifkan tombol manual saat mode manual
             # Jika pompa sedang ON karena auto, matikan dulu saat beralih ke manual
-            if self.state == 1:
-                self.state = 0
+            if self.state == 0:
+                self.state = 1
                 self.send_command_to_mcu(f"OUT1{int(self.state)}")
                 self.status_pompa(False)
                 self.add_log_entry("Pompa dimatikan saat beralih ke Mode Manual.")
@@ -609,7 +613,7 @@ class App:
             if self.state == 0:
                 self.state = 1
                 self.send_command_to_mcu(f"OUT1{int(self.state)}")
-                self.status_pompa(True) # Update visual status pompa
+                self.status_pompa(False) # Update visual status pompa
                 self.add_log_entry("Manual: Pompa dihidupkan.")
             print(f"Nilai state sekarang: {self.state}")
         else:
@@ -622,7 +626,7 @@ class App:
             if self.state == 1:
                 self.state = 0
                 self.send_command_to_mcu(f"OUT1{int(self.state)}")
-                self.status_pompa(False) # Update visual status pompa
+                self.status_pompa(True) # Update visual status pompa
                 self.add_log_entry("Manual: Pompa dimatikan.")
             print(f"Nilai state sekarang: {self.state}")
         else:
