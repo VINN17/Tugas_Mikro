@@ -5,6 +5,8 @@
   <img src="https://github.com/user-attachments/assets/cc067f5f-29a9-47e8-8fe2-f559c3799954">
 </div>
 
+https://github.com/user-attachments/assets/4135e06a-734f-496c-8481-714472587500
+
 ## 📚 Daftar Isi
 
 1. [📌 Deskripsi Proyek](#-deskripsi-proyek)
@@ -26,7 +28,7 @@
 
 Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan atau mematikan pompa secara otomatis berdasarkan data real-time, sehingga meningkatkan **keamanan** dan **kenyamanan** pengguna jalan.
 
-> Dikembangkan berbasis **Arduino Mega 2560** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
+> Dikembangkan berbasis **Arduino Uno** dan sistem monitoring berbasis GUI, proyek ini menawarkan solusi otomasi yang **andal**, **efisien**, dan **mudah diimplementasikan**.
 
 ---
 
@@ -49,7 +51,7 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 
 | Komponen           | Spesifikasi                                  |
 | ------------------ | -------------------------------------------- |
-| Mikrokontroler     | Arduino Mega 2560                            |
+| Mikrokontroler     | Arduino Uno                                  |
 | Sensor Debit Air   | Pressure Sensor                              |
 | Sensor Volume Air  | Ultrasonic / Water Level Sensor              |
 | Aktuator           | Pompa Air + Relay Module                     |
@@ -87,6 +89,15 @@ Dengan memanfaatkan sensor debit dan volume air, sistem ini mampu menghidupkan a
 * Sistem akan terus berjalan sampai dihentikan manual oleh operator.
 
 ---
+
+## 💻 PCB
+
+![Image](https://github.com/user-attachments/assets/2f61345b-46dd-41f9-9cba-4b920a82135a)
+
+Diatas  merupakan desain PCB jadi 
+
+---
+
 
 ## 🌟 Keunggulan Proyek
 
@@ -140,4 +151,5 @@ Kami membuka peluang kerja sama dengan:
 
 **Email Project Manager**: [immarfn17@gmail.com](mailto:immarfn17@gmail.com)
 
+https://github.com/user-attachments/assets/88c9bd39-f75d-4216-a4de-ee6d6c01959d
 > 🚀 Mari bersama kita ciptakan masa depan infrastruktur jalan tol yang lebih **cerdas**, **aman**, dan **berkelanjutan**.
